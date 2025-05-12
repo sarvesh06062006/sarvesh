@@ -1,0 +1,16 @@
+int a; valid
+int @a; invalid
+float_f; valid
+float 123; invalid
+char helloworld; invalid
+int int; invalid
+int INT; valid
+int intint; valid
+float int1; valid
+float f@; invalid
+char ch_; valid
+char CHAR; valid
+char intfloat; valid
+int hieveryonegoodafternoon; valid
+int hi_every_one_good_afternoon; valid
+int HiEveryOneGoodAfternoon; valid
