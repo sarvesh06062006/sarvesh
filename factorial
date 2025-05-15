@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    int num;
+    unsigned long long factorial=1;
+    printf("Enter a positive integer:");
+    scanf("%d",&num);
+    if(num<0){
+        printf("factorial is not defined for negative numbers");
+    }
+    else{
+        for(int i=1;i<=num;i++){
+            factorial=factorial*1;
+        }
+        printf("factorial of %d= %llu \n",num,factorial);
+    }
+    return 0;
+}
